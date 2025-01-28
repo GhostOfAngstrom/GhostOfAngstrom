@@ -48,8 +48,8 @@ nav {
 }
 
 .menu a:hover {
-  background-color: #444;
-  transform: scale(1.05);
+  background-color: transparent;
+  color: #ff6347;
 }
 
 header {
