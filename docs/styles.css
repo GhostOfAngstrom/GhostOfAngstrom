@@ -48,8 +48,8 @@ nav {
 }
 
 .menu a:hover {
-  background-color: transparent;
-  color: #ff6347;
+  background-color: #444;
+  transform: scale(1.05);
 }
 
 header {
@@ -115,10 +115,6 @@ a {
   color: #1e90ff;
   text-decoration: none;
   transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #ff6347;
 }
 
 footer {
