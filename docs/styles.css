@@ -11,14 +11,14 @@ html {
 body {
   font-family: 'Arial', sans-serif;
   background-color: #121212;
-  color: #f1f1f1;
+  color: #ffffff;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
 
 nav {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   padding: 10px 20px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -40,6 +40,7 @@ nav {
   font-weight: bold;
   padding: 8px 12px;
   border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .menu a:hover {
