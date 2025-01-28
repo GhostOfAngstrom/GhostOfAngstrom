@@ -1,9 +1,10 @@
-document.querySelectorAll('nav a').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const targetId = this.getAttribute('href');
-    const targetSection = document.querySelector(targetId);
-    targetSection.scrollIntoView({
+const menuLinks = document.querySelectorAll('nav a');
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const targetId = link.getAttribute('href');
+    document.querySelector(targetId).scrollIntoView({
       behavior: 'smooth'
     });
   });
